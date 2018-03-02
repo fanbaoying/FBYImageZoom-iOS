@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45DB48E2204938AD0095A825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB48E1204938AD0095A825 /* AppDelegate.m */; };
+		45DB48E5204938AD0095A825 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB48E4204938AD0095A825 /* ViewController.m */; };
+		45DB48E8204938AD0095A825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DB48E6204938AD0095A825 /* Main.storyboard */; };
+		45DB48EA204938AD0095A825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DB48E9204938AD0095A825 /* Assets.xcassets */; };
+		45DB48ED204938AD0095A825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DB48EB204938AD0095A825 /* LaunchScreen.storyboard */; };
+		45DB48F0204938AD0095A825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB48EF204938AD0095A825 /* main.m */; };
+		45DB48FA204938AD0095A825 /* FBYImageZoom_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB48F9204938AD0095A825 /* FBYImageZoom_iOSTests.m */; };
+		45DB4905204938AD0095A825 /* FBYImageZoom_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB4904204938AD0095A825 /* FBYImageZoom_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45DB48F6204938AD0095A825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45DB48D5204938AD0095A825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DB48DC204938AD0095A825;
+			remoteInfo = "FBYImageZoom-iOS";
+		};
+		45DB4901204938AD0095A825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45DB48D5204938AD0095A825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DB48DC204938AD0095A825;
+			remoteInfo = "FBYImageZoom-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45DB48DD204938AD0095A825 /* FBYImageZoom-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FBYImageZoom-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DB48E0204938AD0095A825 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45DB48E1204938AD0095A825 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45DB48E3204938AD0095A825 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45DB48E4204938AD0095A825 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45DB48E7204938AD0095A825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45DB48E9204938AD0095A825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45DB48EC204938AD0095A825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45DB48EE204938AD0095A825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DB48EF204938AD0095A825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45DB48F5204938AD0095A825 /* FBYImageZoom-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBYImageZoom-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DB48F9204938AD0095A825 /* FBYImageZoom_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYImageZoom_iOSTests.m; sourceTree = "<group>"; };
+		45DB48FB204938AD0095A825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DB4900204938AD0095A825 /* FBYImageZoom-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBYImageZoom-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DB4904204938AD0095A825 /* FBYImageZoom_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYImageZoom_iOSUITests.m; sourceTree = "<group>"; };
+		45DB4906204938AD0095A825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45DB48DA204938AD0095A825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DB48F2204938AD0095A825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DB48FD204938AD0095A825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45DB48D4204938AD0095A825 = {
+			isa = PBXGroup;
+			children = (
+				45DB48DF204938AD0095A825 /* FBYImageZoom-iOS */,
+				45DB48F8204938AD0095A825 /* FBYImageZoom-iOSTests */,
+				45DB4903204938AD0095A825 /* FBYImageZoom-iOSUITests */,
+				45DB48DE204938AD0095A825 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45DB48DE204938AD0095A825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45DB48DD204938AD0095A825 /* FBYImageZoom-iOS.app */,
+				45DB48F5204938AD0095A825 /* FBYImageZoom-iOSTests.xctest */,
+				45DB4900204938AD0095A825 /* FBYImageZoom-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45DB48DF204938AD0095A825 /* FBYImageZoom-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45DB48E0204938AD0095A825 /* AppDelegate.h */,
+				45DB48E1204938AD0095A825 /* AppDelegate.m */,
+				45DB48E3204938AD0095A825 /* ViewController.h */,
+				45DB48E4204938AD0095A825 /* ViewController.m */,
+				45DB48E6204938AD0095A825 /* Main.storyboard */,
+				45DB48E9204938AD0095A825 /* Assets.xcassets */,
+				45DB48EB204938AD0095A825 /* LaunchScreen.storyboard */,
+				45DB48EE204938AD0095A825 /* Info.plist */,
+				45DB48EF204938AD0095A825 /* main.m */,
+			);
+			path = "FBYImageZoom-iOS";
+			sourceTree = "<group>";
+		};
+		45DB48F8204938AD0095A825 /* FBYImageZoom-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				45DB48F9204938AD0095A825 /* FBYImageZoom_iOSTests.m */,
+				45DB48FB204938AD0095A825 /* Info.plist */,
+			);
+			path = "FBYImageZoom-iOSTests";
+			sourceTree = "<group>";
+		};
+		45DB4903204938AD0095A825 /* FBYImageZoom-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45DB4904204938AD0095A825 /* FBYImageZoom_iOSUITests.m */,
+				45DB4906204938AD0095A825 /* Info.plist */,
+			);
+			path = "FBYImageZoom-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45DB48DC204938AD0095A825 /* FBYImageZoom-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DB4909204938AD0095A825 /* Build configuration list for PBXNativeTarget "FBYImageZoom-iOS" */;
+			buildPhases = (
+				45DB48D9204938AD0095A825 /* Sources */,
+				45DB48DA204938AD0095A825 /* Frameworks */,
+				45DB48DB204938AD0095A825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FBYImageZoom-iOS";
+			productName = "FBYImageZoom-iOS";
+			productReference = 45DB48DD204938AD0095A825 /* FBYImageZoom-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45DB48F4204938AD0095A825 /* FBYImageZoom-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DB490C204938AD0095A825 /* Build configuration list for PBXNativeTarget "FBYImageZoom-iOSTests" */;
+			buildPhases = (
+				45DB48F1204938AD0095A825 /* Sources */,
+				45DB48F2204938AD0095A825 /* Frameworks */,
+				45DB48F3204938AD0095A825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DB48F7204938AD0095A825 /* PBXTargetDependency */,
+			);
+			name = "FBYImageZoom-iOSTests";
+			productName = "FBYImageZoom-iOSTests";
+			productReference = 45DB48F5204938AD0095A825 /* FBYImageZoom-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45DB48FF204938AD0095A825 /* FBYImageZoom-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DB490F204938AD0095A825 /* Build configuration list for PBXNativeTarget "FBYImageZoom-iOSUITests" */;
+			buildPhases = (
+				45DB48FC204938AD0095A825 /* Sources */,
+				45DB48FD204938AD0095A825 /* Frameworks */,
+				45DB48FE204938AD0095A825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DB4902204938AD0095A825 /* PBXTargetDependency */,
+			);
+			name = "FBYImageZoom-iOSUITests";
+			productName = "FBYImageZoom-iOSUITests";
+			productReference = 45DB4900204938AD0095A825 /* FBYImageZoom-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45DB48D5204938AD0095A825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "FBYImageZoom-iOS";
+				TargetAttributes = {
+					45DB48DC204938AD0095A825 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					45DB48F4204938AD0095A825 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45DB48DC204938AD0095A825;
+					};
+					45DB48FF204938AD0095A825 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45DB48DC204938AD0095A825;
+					};
+				};
+			};
+			buildConfigurationList = 45DB48D8204938AD0095A825 /* Build configuration list for PBXProject "FBYImageZoom-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45DB48D4204938AD0095A825;
+			productRefGroup = 45DB48DE204938AD0095A825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45DB48DC204938AD0095A825 /* FBYImageZoom-iOS */,
+				45DB48F4204938AD0095A825 /* FBYImageZoom-iOSTests */,
+				45DB48FF204938AD0095A825 /* FBYImageZoom-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45DB48DB204938AD0095A825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DB48ED204938AD0095A825 /* LaunchScreen.storyboard in Resources */,
+				45DB48EA204938AD0095A825 /* Assets.xcassets in Resources */,
+				45DB48E8204938AD0095A825 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DB48F3204938AD0095A825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DB48FE204938AD0095A825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45DB48D9204938AD0095A825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DB48E5204938AD0095A825 /* ViewController.m in Sources */,
+				45DB48F0204938AD0095A825 /* main.m in Sources */,
+				45DB48E2204938AD0095A825 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DB48F1204938AD0095A825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DB48FA204938AD0095A825 /* FBYImageZoom_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DB48FC204938AD0095A825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DB4905204938AD0095A825 /* FBYImageZoom_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45DB48F7204938AD0095A825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45DB48DC204938AD0095A825 /* FBYImageZoom-iOS */;
+			targetProxy = 45DB48F6204938AD0095A825 /* PBXContainerItemProxy */;
+		};
+		45DB4902204938AD0095A825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45DB48DC204938AD0095A825 /* FBYImageZoom-iOS */;
+			targetProxy = 45DB4901204938AD0095A825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45DB48E6204938AD0095A825 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DB48E7204938AD0095A825 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45DB48EB204938AD0095A825 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DB48EC204938AD0095A825 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45DB4907204938AD0095A825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45DB4908204938AD0095A825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45DB490A204938AD0095A825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYImageZoom-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYImageZoom-iOS.a.FBYImageZoom-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45DB490B204938AD0095A825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYImageZoom-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYImageZoom-iOS.a.FBYImageZoom-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45DB490D204938AD0095A825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYImageZoom-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYImageZoom-iOS.a.FBYImageZoom-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBYImageZoom-iOS.app/FBYImageZoom-iOS";
+			};
+			name = Debug;
+		};
+		45DB490E204938AD0095A825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYImageZoom-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYImageZoom-iOS.a.FBYImageZoom-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBYImageZoom-iOS.app/FBYImageZoom-iOS";
+			};
+			name = Release;
+		};
+		45DB4910204938AD0095A825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYImageZoom-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYImageZoom-iOS.a.FBYImageZoom-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FBYImageZoom-iOS";
+			};
+			name = Debug;
+		};
+		45DB4911204938AD0095A825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYImageZoom-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYImageZoom-iOS.a.FBYImageZoom-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FBYImageZoom-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45DB48D8204938AD0095A825 /* Build configuration list for PBXProject "FBYImageZoom-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DB4907204938AD0095A825 /* Debug */,
+				45DB4908204938AD0095A825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DB4909204938AD0095A825 /* Build configuration list for PBXNativeTarget "FBYImageZoom-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DB490A204938AD0095A825 /* Debug */,
+				45DB490B204938AD0095A825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DB490C204938AD0095A825 /* Build configuration list for PBXNativeTarget "FBYImageZoom-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DB490D204938AD0095A825 /* Debug */,
+				45DB490E204938AD0095A825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DB490F204938AD0095A825 /* Build configuration list for PBXNativeTarget "FBYImageZoom-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DB4910204938AD0095A825 /* Debug */,
+				45DB4911204938AD0095A825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45DB48D5204938AD0095A825 /* Project object */;
+}
