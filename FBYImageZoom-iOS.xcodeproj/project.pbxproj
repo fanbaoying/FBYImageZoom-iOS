@@ -15,6 +15,7 @@
 		45DB48F0204938AD0095A825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB48EF204938AD0095A825 /* main.m */; };
 		45DB48FA204938AD0095A825 /* FBYImageZoom_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB48F9204938AD0095A825 /* FBYImageZoom_iOSTests.m */; };
 		45DB4905204938AD0095A825 /* FBYImageZoom_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB4904204938AD0095A825 /* FBYImageZoom_iOSUITests.m */; };
+		45DB4915204941C70095A825 /* FBYImageZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DB4914204941C70095A825 /* FBYImageZoom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		45DB4900204938AD0095A825 /* FBYImageZoom-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBYImageZoom-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DB4904204938AD0095A825 /* FBYImageZoom_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYImageZoom_iOSUITests.m; sourceTree = "<group>"; };
 		45DB4906204938AD0095A825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DB4913204941C70095A825 /* FBYImageZoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYImageZoom.h; sourceTree = "<group>"; };
+		45DB4914204941C70095A825 /* FBYImageZoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYImageZoom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		45DB48DF204938AD0095A825 /* FBYImageZoom-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				45DB49122049416B0095A825 /* FBYImageZoom */,
 				45DB48E0204938AD0095A825 /* AppDelegate.h */,
 				45DB48E1204938AD0095A825 /* AppDelegate.m */,
 				45DB48E3204938AD0095A825 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				45DB4906204938AD0095A825 /* Info.plist */,
 			);
 			path = "FBYImageZoom-iOSUITests";
+			sourceTree = "<group>";
+		};
+		45DB49122049416B0095A825 /* FBYImageZoom */ = {
+			isa = PBXGroup;
+			children = (
+				45DB4913204941C70095A825 /* FBYImageZoom.h */,
+				45DB4914204941C70095A825 /* FBYImageZoom.m */,
+			);
+			path = FBYImageZoom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				45DB48E5204938AD0095A825 /* ViewController.m in Sources */,
 				45DB48F0204938AD0095A825 /* main.m in Sources */,
+				45DB4915204941C70095A825 /* FBYImageZoom.m in Sources */,
 				45DB48E2204938AD0095A825 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
 				INFOPLIST_FILE = "FBYImageZoom-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYImageZoom-iOS.a.FBYImageZoom-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
 				INFOPLIST_FILE = "FBYImageZoom-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYImageZoom-iOS.a.FBYImageZoom-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
